@@ -45,8 +45,6 @@ function MQTTconnect() {
         //userName: this.getToken(),
         userName:"clientjs",
         password: "clientjs",
-        //userName: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJsb3JhLWFwcC1zZXJ2ZXIiLCJleHAiOjE1MzI2MzU5NTQsImlzcyI6ImxvcmEtYXBwLXNlcnZlciIsIm5iZiI6MTUzMjU0OTU1NCwic3ViIjoidXNlciIsInVzZXJuYW1lIjoiYWRtaW4ifQ.jMKfv9wpCGTuHswl1dIDtXhTfQdetmaUXQ5mBpblIcU",
-        //password: "any",
         useSSL: sslOption,
         keepAliveInterval: 3600,
         onSuccess: onConnect,
