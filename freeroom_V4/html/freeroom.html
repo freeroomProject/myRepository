@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang=en>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.js" type="text/javascript"></script> -->
+        <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script> -->
+        <script src="../js/paho-mqtt.js"></script>
+        <script src="../js/script.js"></script>
+        <title>freeRoom</title>
+    </head>
+
+    <body> 
+            <h1>
+                freeRoom <em>"COOLab edition"</em>
+            </h1>
+        
+            <script>
+	           MQTTconnect();
+            </script>
+        
+            <section>
+                <div id="banniere_image"></div>
+                
+                <div id="status">Connection Status: Not Connected</div>
+        
+                <div id="flex-container">
+                    <div id="creaspace">CREASpace</div>
+                    <div id="haigneré">Haigneré</div>
+                    <div id="becquerel">Becquerel</div>
+            
+                    <!-- <p><img src="image/stm32.jpg" class="displayed" alt="Logo stm32" /></p> -->
+           
+                    <div id="partnerspace">PARTNERSpace</div>
+                    <div id="mariecurie">Marie Curie</div>
+                    <div id="prototypage">Prototypage</div>
+                </div>
+                Messages:<p id="messages"></p>
+        
+                <footer>
+                    <p  class="text-center">&copy; freeRoom CooLab edition 2018 </p>
+                </footer>
+            </section>
+    </body>
+</html>
